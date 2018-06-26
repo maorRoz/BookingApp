@@ -1,0 +1,95 @@
+@import '../styles/vars';
+
+.app :global {
+    .page-content {
+        padding-top: 100px;
+        text-align: center;
+    }
+}
+
+.line {
+    width: 1110px;
+    border: solid 1px #374148;
+    margin-top: 80px
+}
+
+.layer {
+    width: 56.6px;
+    height: 29px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    color: 'white';
+}
+
+.layer_description {
+    width: 114.6px;
+    height: 15px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #72848b;
+    color: 'color-steel-grey'
+  }
+
+.employee_stats {
+    margin-top: 62px;
+    margin-left: 240px;
+    width: 456px;
+    height: 21px;
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    color: 'white'
+}
+
+.bitmap {
+    margin-top: 33px;
+    width: 33px;
+    height: 33px;
+    object-fit: contain;
+}
+
+.employeeName {
+    width: 142.1px;
+    height: 18px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #ffffff;
+    color: 'white';
+}
+
+.employeeHours {
+    margin-right: 850px;
+    width: 54.9px;
+    height: 18px;
+    font-family: Assistant;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: right;
+    color: #72848b;
+    color: 'color-steel-grey';
+  }
